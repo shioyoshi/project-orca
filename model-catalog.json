@@ -1,0 +1,101 @@
+{
+  "blender": "4.4.3",
+  "axis": "glTF nose +Z, dorsal +Y; units meters",
+  "models": {
+    "whale": {
+      "file": "assets/models/whale.glb",
+      "nodes": [
+        "Whale.Body",
+        "Whale.Dorsal",
+        "Whale.Pectoral.L",
+        "Whale.Fluke.L",
+        "Whale.Eye.L",
+        "Whale.Rostrum-nodule.L0",
+        "Whale.Rostrum-nodule.L1",
+        "Whale.Rostrum-nodule.L2",
+        "Whale.Rostrum-nodule.L3",
+        "Whale.Pectoral.R",
+        "Whale.Fluke.R",
+        "Whale.Eye.R",
+        "Whale.Rostrum-nodule.R0",
+        "Whale.Rostrum-nodule.R1",
+        "Whale.Rostrum-nodule.R2",
+        "Whale.Rostrum-nodule.R3"
+      ],
+      "rig": "WhaleRig",
+      "animation": "WhaleSwim",
+      "vertices": 10694,
+      "bytes": 760872
+    },
+    "sea-lion": {
+      "file": "assets/models/sea-lion.glb",
+      "nodes": [
+        "SeaLion.Body",
+        "SeaLion.Foreflipper.L",
+        "SeaLion.Hindflipper.L",
+        "SeaLion.Ear.L",
+        "SeaLion.Eye.L",
+        "SeaLion.Nostril.L",
+        "SeaLion.Foreflipper.R",
+        "SeaLion.Hindflipper.R",
+        "SeaLion.Ear.R",
+        "SeaLion.Eye.R",
+        "SeaLion.Nostril.R"
+      ],
+      "rig": "SeaLionRig",
+      "animation": "SeaLionSwim",
+      "vertices": 8020,
+      "bytes": 573500
+    },
+    "seabird": {
+      "file": "assets/models/seabird.glb",
+      "nodes": [
+        "Seabird.Body",
+        "Seabird.Beak",
+        "Seabird.Wing.L",
+        "Seabird.Wing.Tip.L",
+        "Seabird.Eye.L",
+        "Seabird.Wing.R",
+        "Seabird.Wing.Tip.R",
+        "Seabird.Eye.R",
+        "Seabird.Tail"
+      ],
+      "rig": "SeabirdRig",
+      "animation": "Wingbeat",
+      "vertices": 6198,
+      "bytes": 447228
+    },
+    "orca-low": {
+      "file": "assets/models/orca-low.glb",
+      "nodes": [
+        "Pectoral.R",
+        "Pectoral.L",
+        "Orca \u00b7 anatomical body",
+        "Mouth.R",
+        "Mouth.L",
+        "Fluke.R",
+        "Fluke.L",
+        "Eye.R",
+        "Eye.L",
+        "Dorsal fin"
+      ],
+      "rig": "OrcaRig",
+      "animation": "Swim",
+      "vertices": 3722,
+      "bytes": 314384
+    }
+  },
+  "patterns": {
+    "eye": [
+      0,
+      1,
+      2
+    ],
+    "saddle": [
+      0,
+      1,
+      2
+    ],
+    "path": "assets/textures/orca-eye-{eye}-saddle-{saddle}.png"
+  }
+}
